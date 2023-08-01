@@ -3,40 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Checkout Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <form action="#" method="post">
-            <h1>Registration</h1>
+            <h1>Checkout</h1>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
             
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
             
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
             
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
+            <label for="zipcode">Zip Code</label>
+            <input type="text" id="zipcode" name="zipcode" required>
             
-            <label for="gender">Gender</label>
-            <select id="gender" name="gender" required>
-                <option value="" disabled selected>Select your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
+            <label for="card">Credit Card Number</label>
+            <input type="text" id="card" name="card" required>
             
-            <label for="dob">Date of Birth</label>
-            <input type="date" id="dob" name="dob" required>
+            <label for="expdate">Expiration Date</label>
+            <input type="text" id="expdate" name="expdate" required>
             
-            <input type="submit" value="Register">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+            
+            <input type="submit" value="Place Order">
         </form>
     </div>
 </body>
